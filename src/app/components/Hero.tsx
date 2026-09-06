@@ -1,7 +1,7 @@
 import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "./ui/button";
 
-export function Hero() {
+export default function Hero() {
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {

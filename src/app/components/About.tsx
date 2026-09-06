@@ -1,7 +1,7 @@
 import { GraduationCap, Heart } from "lucide-react";
 import { Card, CardContent } from "./ui/card";
 
-export function About() {
+export default function About() {
   return (
     <section id="about" className="py-20 px-4 sm:px-6 lg:px-8 bg-muted/30">
       <div className="container mx-auto max-w-6xl">

@@ -98,7 +98,7 @@ const skillCategories = [
   },
 ];
 
-export function Skills() {
+export default function Skills() {
   return (
     <section id="skills" className="py-20 px-4 sm:px-6 lg:px-8 bg-muted/30">
       <div className="container mx-auto max-w-6xl">

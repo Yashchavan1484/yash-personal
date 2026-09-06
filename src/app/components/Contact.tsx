@@ -1,7 +1,7 @@
 import { Mail, Phone, Github, Linkedin } from "lucide-react";
 import { Card, CardContent } from "./ui/card";
 
-export function Contact() {
+export default function Contact() {
   return (
     <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="container mx-auto max-w-6xl">
